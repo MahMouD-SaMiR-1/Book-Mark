@@ -34,15 +34,21 @@
 	</head>
 	<body>
 		<main class="py-5 position-relative">
-			<div class="container d-flex flex-column justify-content-center align-items-center">
+			<div
+				class="container d-flex flex-column justify-content-center align-items-center"
+			>
 				<h1 class="py-2 position-relative">Bookmarker</h1>
-				<div class="bookmark-body w-100 p-3 py-4 mt-5 d-flex flex-column justify-content-center align-items-center">
+				<div
+					class="bookmark-body w-100 p-3 py-4 mt-5 d-flex flex-column justify-content-center align-items-center"
+				>
 					<h2>
 						<i class="fa-solid fa-bookmark"></i>
 						Bookmark your favorite sites
 						<i class="fa-solid fa-bookmark"></i>
 					</h2>
-					<div class="site-name w-100 d-flex flex-column justify-content-center my-3">
+					<div
+						class="site-name w-100 d-flex flex-column justify-content-center my-3"
+					>
 						<label for="bookmarkName" class="pd-2 fw-semibold">
 							<i class="fa-solid fa-book pe-2"></i>
 							Site Name
@@ -54,7 +60,9 @@
 							id="bookmarkName"
 						/>
 					</div>
-					<div class="site-url w-100 d-flex flex-column justify-content-center my-3">
+					<div
+						class="site-url w-100 d-flex flex-column justify-content-center my-3"
+					>
 						<label for="bookmarkURL" class="pd-2 fw-semibold">
 							<i class="fa-solid fa-link pe-2"></i>
 							Site URL
@@ -66,21 +74,25 @@
 							id="bookmarkURL"
 						/>
 					</div>
-					<button onclick="addInputs()" class="btn btn-submit px-5" id="submitbtn">Submit</button>
+					<button
+						onclick="addInputs()"
+						class="btn btn-submit px-5"
+						id="submitbtn"
+					>
+						Submit
+					</button>
 				</div>
-                <table class="table mt-4 text-center bg-light">
-                    <thead>
-                        <th class="text-capitalize">index</th>
-                        <th class="text-capitalize">website name</th>
-                        <th class="text-capitalize">visit</th>
-                        <th class="text-capitalize">delete</th>
-                    </thead>
-					<tbody id="tableContent">
-						
-					</tbody>
-                </table>
+				<table class="table mt-4 text-center bg-light">
+					<thead>
+						<th class="text-capitalize">index</th>
+						<th class="text-capitalize">website name</th>
+						<th class="text-capitalize">visit</th>
+						<th class="text-capitalize">delete</th>
+					</thead>
+					<tbody id="tableContent"></tbody>
+				</table>
 			</div>
-
+			<div class="z3bola"></div>
 		</main>
 
 		<script src="js/script.js"></script>
